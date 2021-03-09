@@ -9,7 +9,7 @@ public class BinarySearch {
 		int[] arr = {99, 55, 44, 12, 21, 35, 67, 82, 73, 99};
 		
 		
-		System.out.println(binarySearch(arr, 54));
+		System.out.println(binarySearch(arr, 73));
 		System.out.println(Arrays.toString(arr));
 	}
 
