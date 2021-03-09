@@ -1,4 +1,4 @@
-package Algorithm;
+package BOJ_solve;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
