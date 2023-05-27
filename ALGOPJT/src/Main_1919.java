@@ -1,4 +1,3 @@
-package sol;
 
 import java.util.Scanner;
 
