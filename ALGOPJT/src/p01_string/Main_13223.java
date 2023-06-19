@@ -1,3 +1,5 @@
+package p01_string;
+
 import java.util.Scanner;
 
 public class Main_13223 {

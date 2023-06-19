@@ -1,3 +1,4 @@
+package p01_string;
 
 import java.util.Scanner;
 

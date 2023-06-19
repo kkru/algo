@@ -1,3 +1,5 @@
+package p02_time;
+
 import java.util.Scanner;
 
 public class Main_10158 {
