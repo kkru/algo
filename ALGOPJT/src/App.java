@@ -1,14 +1,21 @@
+import java.util.ArrayList;
+
 public class App {
     public static void main(String[] args) throws Exception {
         // 리터럴 스트링 비교 (true)
-        String s1 = "TEST";
-        String s2 = "TEST";
-        System.out.println(s1 == s2);
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(7);
+        list.add(4);
+        list.add(7);
+        int size = list.size();
 
-        // 오브젝트 스트링 비교 (false)
-        String s3 = new String("test");
-        String s4 = new String("test");
-        System.out.println(s3 == s4);
+        System.out.println(list.toString());
+
+        for (int j = 0; j < size / 2; j++) {
+            if (list.get(j) != list.get(size - j - 1)) {
+                System.out.println("not");
+            }
+        }
 
     }
 }
